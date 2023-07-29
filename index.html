@@ -9,19 +9,61 @@
         }
         </style>
 </head>
-<body> <h1>  Seja bem vindo! </h1><br>
+<div>
+
+
+<body>
+    <fieldset>
+    <h1>  Seja bem vindo! </h1><br>
     <h2> Este formulário e um formulário teste</h2>
     <p>Primeiro precisamos nos conhecer</p>
-    <form autocomplete="off">
+    <form action="Cadastro" autocomplete="off">
        <p><label for="Nome1">Nome:</label> 
         <input type="text" name="Nome" id="Nome1"></p>
        <p><label for="Sobrenome1">Sobrenome:</label> 
         <input type="text" name="Sobrenome" id="Sobrenome1"> </p>
        <p><label for="Idade1">Idade: </label>
         <input type="number" name="Idade" id="Idade1"></p>
-        
-       <input type="submit" value="Confirmar">
+    </fieldset>
+     
     </form>
+
+</div> 
+
+<div> 
+<p>
+<label> <h3>Qual é o seu email?</h3></label>
+<input type="email" name="email" id="email">
+</p>
+
+</div>
+
+<div>
+    <h3>Agora nos diga seu genêro.   
+ </h3>
+    <label for="Femenino1">femenino</label> 
+    <input type="radio" name="Femenino" id="femenino1"><br>
+
+    <label for="mascolino1">masculino</label> 
+    <input type="radio" name="masculino" id="masculino1"><br>
+
+    <label for="outros1">outros</label> 
+    <input type="radio" name="outros" id="outros1">
+</div><br>
+<div>
+<p><h3>Agora nos diga seu status atual</h3>
+</p>
+<p>
+    <label for="casado(a)1"><input type="checkbox" name="casado(a)" id="casado(a)1"></label>casado(a)<br>
+    <label for="solteiro(a)1"><input type="checkbox" name="solteiro(a)" id="solteiro(a)1"></label>Solteiro(a)<br>
+    <label for="Viúvo(a)1"><input type="checkbox" name="Viúvo(a)" id="Viúvo(a)1"></label>Viúvo(a)<br>
+</p>
+
     
+
+
+
+</div>
+<input type="submit" value="Confirmar">
 </body>
 </html>
